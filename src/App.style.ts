@@ -51,6 +51,22 @@ export const Wrapper = styled.div`
     text-align: center;
     margin: 20px;
   }
+
+  .option {
+    font-family: Fascinate Inline;
+    background-image: linear-gradient(180deg, #fff, #87f1ff);
+    font-weight: 400;
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    filter: drop-shadow(2px 2px #0085a3);
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+  }
   .start, .next {
     cursor: pointer;
     background: linear-gradient(180deg, #ffffff, #ffcc91);
@@ -63,5 +79,12 @@ export const Wrapper = styled.div`
   }
   .start {
     max-width: 200px;
+  }
+
+  input {
+    line-height: 24px;
+    opacity: 1;
+    height:50px;
+    width:500px;
   }
 `;
